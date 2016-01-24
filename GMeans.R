@@ -4,7 +4,7 @@ library(nortest)
 set.seed(40)
 
 #this is the function which needs to be called 
-#d = data
+#d = data (any uni or multi-variate matrix)
 #alpha=significance level
 gmeans<-function(d,alpha){
 	kFinal=1
